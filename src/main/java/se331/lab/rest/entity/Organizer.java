@@ -19,5 +19,5 @@ public class Organizer {
     String name;
     @OneToMany(mappedBy = "organizer")
     @Builder.Default
-    List<Event> ownEvent = new ArrayList<>();
+    List<Event> ownEvents = new ArrayList<>();
 }
